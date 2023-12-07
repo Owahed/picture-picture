@@ -338,3 +338,33 @@ span {
 .card-two-draw p {
   margin-bottom: 60px;
 }
+.edit-banner {
+  background: -webkit-linear-gradient(
+    left,
+    #ff4ab3,
+    #fcd246 35%,
+    #9ffe00 70%,
+    #221ff6
+  );
+  background: linear-gradient(
+    90deg,
+    #ff4ab3,
+    #fcd246 35%,
+    #9ffe00 70%,
+    #221ff6
+  );
+  padding: 0.2083333333vw;
+  border-radius: 0.4166666667vw;
+}
+.edit-banner-img {
+  padding: 2.5vw;
+  border-radius: 0.2083333333vw;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./Img/moblie-qrcode-bg.e90d8eec97defee6533795e5813b36e3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}

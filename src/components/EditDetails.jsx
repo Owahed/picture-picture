@@ -1,5 +1,8 @@
 import logo1 from "../Img/step-1.webp";
 import { BsArrowRightCircleFill } from "react-icons/bs";
+import google from "../Img/google.webp";
+import appStore from "../Img/play.webp";
+import qr from "../Img/qr.webp";
 
 const EditDetails = () => {
   return (
@@ -89,7 +92,24 @@ const EditDetails = () => {
         </div>
       </div>
       {/* banner------------- */}
-      <div></div>
+      <div className="edit-banner">
+        <div className="edit-banner-img">
+          <div>
+            <h2>Edit photos on the go</h2>
+            <p>
+              Dive into a seamless photo editing experience. Download the Fotor
+              photo editing app to edit images anywhere, anytime.
+            </p>
+            <div>
+              <img src={google} alt="" />
+              <img src={appStore} alt="" />
+            </div>
+          </div>
+          <div>
+            <img src={qr} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
