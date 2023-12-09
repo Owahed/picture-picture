@@ -1,18 +1,15 @@
 import "./App.css";
-import Content from "./components/Content";
-import EditDetails from "./components/EditDetails";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import EditSection from "./components/EditSection";
+import Home from "./components/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div className="app-container">
-        <Navbar />
-        <Hero />
-        <Content />
-        <EditDetails />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/edit" element={<EditSection />} />
+      </Routes>
     </>
   );
 }

@@ -6,7 +6,7 @@ import qr from "../Img/qr.webp";
 
 const EditDetails = () => {
   return (
-    <div className="content-grid">
+    <div className="content-grid edit-details">
       <div className="edit-header">
         <h2>How to edit photos with Fotor's online photo editor?</h2>
         <p>
@@ -105,7 +105,7 @@ const EditDetails = () => {
               <img src={appStore} alt="" />
             </div>
           </div>
-          <div>
+          <div className="edit-qr">
             <img src={qr} alt="" />
           </div>
         </div>

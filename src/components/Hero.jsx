@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import HeroImg from "../Img/Fotor-free-online-photo-editor.webp";
 const Hero = () => {
   return (
@@ -11,13 +12,11 @@ const Hero = () => {
               editor. Edit, enhance, and <br /> create beautiful images online
               instantly.
             </p>
-            {/* <div className="button">
-              <button>Edit Photo for Free</button>
-            </div> */}
+
             <div className="all-button ">
-              <a className="ex" href="#">
+              <Link className="ex" to="/edit">
                 Edit photo for free
-              </a>
+              </Link>
             </div>
           </div>
           <div>
